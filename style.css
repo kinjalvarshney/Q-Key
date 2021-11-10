@@ -437,3 +437,63 @@ text-align: center;
 justify-content: center;
 }
 
+
+/* responsive part  */
+
+@media only screen and (max-width:700px ) 
+{
+nav {
+  width:100%;
+  background-color: silver;
+
+}
+#sec_img
+{
+visibility:auto;
+}
+.sec_img
+{
+  visibility: hidden;
+}
+#one
+{
+  visibility: hidden;
+}
+.aboutus{
+  min-width: 100%;
+  background-color:rgb(245, 217, 192) ;
+  filter:unset;
+
+}
+.aboutus>pre{
+  font-size: 10px;
+}
+
+.aboutus{
+  visibility: hidden;
+}
+body{
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  background-image: url("https://images.unsplash.com/photo-1593642634315-48f5414c3ad9?ixid=MnwxMjA3fDF8MHxzZWFyY2h8MzZ8fGxhcHRvcHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80");
+  height: 400px;
+  
+
+}
+#first
+{
+  visibility: hidden;
+}  
+#mysecc
+{
+  padding-right: 35px;
+  font-size: 15px;
+}
+.size
+{
+  visibility: hidden;
+}
+nav
+{
+  height: 100px;
+}
+}
